@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.js">
 </head>
 <body>
     <div id="header">
@@ -22,7 +23,53 @@
             </nav>
             <div class="header-text">
                 <p>Frontend Developer</p>
-                <h1>Hi, I'm a Joshua from Ghana, currently living in Brazil!</h1>
+                <h1>Hi, I'm <span>Joshua</span> from Ghana,<br> currently living in Brazil!</h1>
+            </div>
+        </div>
+    </div>
+
+<!-- ----------------about section------------------ -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Phone-background image.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et natus vitae quam quas a suscipit, 
+                        eveniet aut enim quo corrupti, nihil nisi animi rerum sint! Ipsam sequi neque officia reprehenderit 
+                        harum aliquid dolorum aliquam repellendus, recusandae perferendis ipsa earum,
+                         debitis temporibus eum non vitae. Odio ipsum laborum voluptates temporibus laudantium.</p>
+
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab(skill)">Skills</p>
+                            <p class="tab-links" onclick="opentab(experience)">Experience</p>
+                            <p class="tab-links" onclick="opentab(education)">Education</p>
+                         </div>
+                         <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Design</span><br>Designing Web/App Inferfaces</li>
+                                <li><span>Web Development</span><br>Building Web Sites</li>
+                                <li><span>English Teacher</span><br>Teaching students how to develop their English!</li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2023 - Current</span><br>English Teacher at ECC(English Conversation Course)</li>
+                                <li><span>2016 - 2023</span><br>Private English Teacher</li>
+                                <li><span>2018 - 2018</span><br>Teacher at Madsion School</li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021 - 2023</span><br>Universidade Nove de Julho-EAD</li>
+                                <li><span>2013 - 2014</span><br>University of Arts - Ghana</li>
+                                <li><span>2015 - 2016</span><br>Universidade Federal de Roraima - Boa Vista</li>
+                            </ul>
+                         </div>
+                </div>
             </div>
         </div>
     </div>
