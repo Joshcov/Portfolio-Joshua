@@ -298,14 +298,25 @@ nav ul li a:hover::after{
     flex-basis: 60%;
 }
 
-.contact-left p{
+.contact-left p {
     margin-top: 30px;
 }
 
-.contact-left p i{
+.contact-left p i {
     color: #ff004f;
     margin-right: 15px;
     font-size: 15px;
+}
+
+.button-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.button-link i {
+    color: #ff004f;
+    margin-top: 15px;
+    margin-right: 15px;
 }
 
 .social-icons{
@@ -328,6 +339,7 @@ nav ul li a:hover::after{
 
 .btn.btn2{
     display: inline-block;
+    text-decoration: none;
     background: #ff004f;
     transition: transform 0.5s;
 }
